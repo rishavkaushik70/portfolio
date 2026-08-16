@@ -11,7 +11,7 @@ const Projects = () => {
         {/* 1st project */}
         <div>
           <Image
-            src={"/images/SavemyMoney.png"}
+            src={"/Images/SavemyMoney.png"}
             alt="img"
             width={800}
             height={650}
@@ -26,7 +26,7 @@ const Projects = () => {
 
         <div>
           <Image
-            src={"/images/electonica.png"}
+            src={"/Images/electonica.png"}
             alt="img"
             width={800}
             height={650}
