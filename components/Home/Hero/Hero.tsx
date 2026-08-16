@@ -9,7 +9,7 @@ const Hero = () => {
       <ParticlesHero />
       <div className="relative z-10 flex flex-col items-center">
         <Image
-          src={"/Images/Myprofile.png"}
+          src={"/Images/myprofile.png"}
           alt="heroimage"
           width={150}
           height={150}
