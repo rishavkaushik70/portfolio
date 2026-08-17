@@ -27,7 +27,7 @@ const Resume = () => {
               description="A personal finance application focused on helping
             users track and manage their money through a
             simple and intuitive interface."
-              tech="React • JavaScript • OpenWeather API"
+              tech="Next.js • TypeScript • Tailwind CSS"
             />
 
             <ResumeCard
