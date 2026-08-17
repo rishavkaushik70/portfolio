@@ -4,7 +4,7 @@ import ResumeCard from "./ResumeCard";
 const Resume = () => {
   return (
     <div id="resume" className="pt-20 pb-16">
-      <div className="w-[90%] sm:w-[80%] xl:w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10">
+      <div className="w-[90%] sm:w-[80%] xl:w-[70%] mx-auto grid grid-cols-1 gap-10">
         {/* Featured Work */}
         <div>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
@@ -53,6 +53,13 @@ const Resume = () => {
               title="Bachelor of Computer Application"
               description="Maharaja College"
               tech="Computer Science / Information Technology"
+            />
+            <ResumeCard
+              icon={FaGraduationCap}
+              role="2021 – 2022"
+              title="Senior Secondary"
+              description="Bihar School Examination Board (BSEB)"
+              tech="Science — PCM (Physics, Chemistry, Mathematics)"
             />
           </div>
         </div>

@@ -81,11 +81,6 @@ const Skill = [
     percentage: 75,
   },
   {
-    name: "PostgreSQL",
-    icon: <SiPostgresql />,
-    percentage: 75,
-  },
-  {
     name: "shadcn/ui",
     icon: <SiShadcnui />,
     percentage: 80,
@@ -106,7 +101,6 @@ const Skills = () => {
           return (
             <Tilt
               key={skill.name}
-              scale={1.4}
               transitionSpeed={400}
               tiltMaxAngleX={10}
               tiltMaxAngleY={10}
@@ -114,9 +108,6 @@ const Skills = () => {
               <div className="bg-[#14134145] border border-white/10 text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition-all duration-300 hover:border-cyan-300/40 hover:shadow-cyan-300/10">
                 {/* Icon */}
                 <div className="text-5xl mb-4 text-gray-300">{skill.icon}</div>
-
-                {/* Percentage */}
-                <p className="text-2xl font-semibold">{skill.percentage}%</p>
 
                 {/* Skill Name */}
                 <p className="text-cyan-300 mt-1 font-medium">{skill.name}</p>
