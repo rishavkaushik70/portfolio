@@ -3,7 +3,7 @@ import ResumeCard from "./ResumeCard";
 
 const Resume = () => {
   return (
-    <div className="pt-20 pb-16">
+    <div id="resume" className="pt-20 pb-16">
       <div className="w-[90%] sm:w-[80%] xl:w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Featured Work */}
         <div>

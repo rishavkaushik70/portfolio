@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div id="works" className="pt-16 pb-16">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
         A small selection of recent{" "}
         <span className="text-cyan-300">projects</span>
