@@ -11,7 +11,7 @@ const Projects = () => {
         {/* 1st project */}
         <div>
           <Image
-            src={"/Images/SavemyMoney.png"}
+            src={"/images/Savemymoney.png"}
             alt="img"
             width={800}
             height={650}

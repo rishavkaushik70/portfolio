@@ -11,9 +11,7 @@ import {
 import { loadSlim } from "@tsparticles/slim";
 
 export default function ParticleBackground() {
-  const particlesLoaded = async (container?: Container): Promise<void> => {
-    console.log(container);
-  };
+  const particlesLoaded = async (container?: Container): Promise<void> => {};
 
   const options: ISourceOptions = useMemo(
     () => ({
