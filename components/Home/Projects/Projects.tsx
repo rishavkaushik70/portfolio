@@ -26,7 +26,7 @@ const Projects = () => {
 
         <div>
           <Image
-            src={"/Images/electonica.png"}
+            src={"/images/electonica.png"}
             alt="img"
             width={800}
             height={650}
