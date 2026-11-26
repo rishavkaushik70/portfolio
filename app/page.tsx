@@ -1,7 +1,5 @@
-import Home from "@/components/Home/Home";
+import { PortfolioShell } from "@/components/PortfolioShell";
 
-const HomePage = () => {
-  return <Home />;
-};
-
-export default HomePage;
+export default function HomePage() {
+  return <PortfolioShell />;
+}

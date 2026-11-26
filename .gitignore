@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local raw reference assets (organized copies live in /public)
+/reference-materials/

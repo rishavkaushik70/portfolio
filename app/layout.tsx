@@ -1,16 +1,30 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-jetbrains-mono",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Rishabh Kaushik | Frontend Developer",
-  description: "Portfolio of Rishabh Kaushik",
+  title: "Rishabh — Portfolio | Frontend Developer",
+  description:
+    "VS Code-inspired developer portfolio of Rishabh Kaushik — Frontend Developer & Full-Stack Enthusiast.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -19,9 +33,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-[#0d0d1f]`}>
-        <ResponsiveNav />
+    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
+      <body className="bg-[#07111B] text-[#E5EAF0] antialiased">
         {children}
       </body>
     </html>
