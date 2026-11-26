@@ -481,8 +481,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
       "Gemini AI",
       "Razorpay",
     ],
-    githubUrl: null,
-    liveDemoUrl: null,
+    githubUrl: "https://github.com/rishavkaushik70/save-my-money",
+    liveDemoUrl: "https://savemymoneylive.vercel.app",
     caseStudyNotes: [
       "Developed a full-stack personal finance platform featuring transaction management, budgeting, financial reports, and interactive dashboard analytics.",
       "Integrated Google Gemini AI to parse multiple financial transactions from natural-language input in English, Hindi, and Hinglish with an editable confirmation workflow.",
@@ -537,8 +537,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
       "Tailwind CSS v4",
       "TMDB API",
     ],
-    githubUrl: null,
-    liveDemoUrl: null,
+    githubUrl: "https://github.com/rishavkaushik70/cineStream",
+    liveDemoUrl: "https://cinestream-live.vercel.app/",
     caseStudyNotes: [
       "Developed a responsive movie and TV discovery platform using Next.js App Router, React Server Components, and TypeScript.",
       "Integrated TMDB APIs through server-side Route Handlers, keeping API credentials off the client while powering catalog browsing and search.",
@@ -601,8 +601,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
       "Vite",
       "Clerk",
     ],
-    githubUrl: null,
-    liveDemoUrl: null,
+    githubUrl: "https://github.com/rishavkaushik70/electronica-ecommerce",
+    liveDemoUrl: "https://electro-nica.netlify.app/",
     caseStudyNotes: [
       "Developed a responsive e-commerce application with reusable React components and adaptive layouts across desktop, tablet, and mobile viewports.",
       "Implemented shopping cart and wishlist state management using Redux Toolkit and multi-page navigation with React Router.",
@@ -612,14 +612,50 @@ export const PROJECTS_DATA: ProjectItem[] = [
 ];
 
 export const DESIGN_TOKENS = [
-  { token: "--bg-main", hex: "#07111B", usage: "Top bar, activity bar, terminal shell" },
+  {
+    token: "--bg-main",
+    hex: "#07111B",
+    usage: "Top bar, activity bar, terminal shell",
+  },
   { token: "--bg-editor", hex: "#08131E", usage: "Central editor workspace" },
-  { token: "--bg-sidebar", hex: "#091521", usage: "Explorer & right navigation sidebars" },
-  { token: "--bg-panel", hex: "#0D1B28", usage: "Cards, dialogs & elevated surfaces" },
-  { token: "--border-subtle", hex: "#243342", usage: "Window dividers & card borders" },
-  { token: "--accent-primary", hex: "#1685F8", usage: "Active tabs, buttons & status bar" },
-  { token: "--accent-secondary", hex: "#8B5CF6", usage: "Code accents & secondary highlights" },
-  { token: "--text-primary", hex: "#E5EAF0", usage: "Primary headings & body copy" },
-  { token: "--text-secondary", hex: "#9AA8B7", usage: "Muted metadata & labels" },
-  { token: "--status-success", hex: "#4ADE80", usage: "Availability & terminal success" },
+  {
+    token: "--bg-sidebar",
+    hex: "#091521",
+    usage: "Explorer & right navigation sidebars",
+  },
+  {
+    token: "--bg-panel",
+    hex: "#0D1B28",
+    usage: "Cards, dialogs & elevated surfaces",
+  },
+  {
+    token: "--border-subtle",
+    hex: "#243342",
+    usage: "Window dividers & card borders",
+  },
+  {
+    token: "--accent-primary",
+    hex: "#1685F8",
+    usage: "Active tabs, buttons & status bar",
+  },
+  {
+    token: "--accent-secondary",
+    hex: "#8B5CF6",
+    usage: "Code accents & secondary highlights",
+  },
+  {
+    token: "--text-primary",
+    hex: "#E5EAF0",
+    usage: "Primary headings & body copy",
+  },
+  {
+    token: "--text-secondary",
+    hex: "#9AA8B7",
+    usage: "Muted metadata & labels",
+  },
+  {
+    token: "--status-success",
+    hex: "#4ADE80",
+    usage: "Availability & terminal success",
+  },
 ] as const;
